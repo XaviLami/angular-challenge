@@ -8,8 +8,8 @@ import { GameConsoleService } from './services/game-console.service'
   styleUrls: []
 })
 export class AppComponent {
-  title = 'A new Challenge'
-  timesMoreFun = 1 + 1
+  title = 'Angular Challenge';
+  timesMoreFun = 2 + 2 ;
 
   gameConsoles: GameConsole[] = this.gameConsoleService.list()
   mostSoldGameConsole: GameConsole
