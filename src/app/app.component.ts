@@ -21,7 +21,7 @@ export class AppComponent {
     var difVentePlay = (this.gameConsoles[0].sales2018) - this.gameConsoles[0].sales2017;
     var difVenteXbox = (this.gameConsoles[1].sales2018) - this.gameConsoles[1].sales2017;
     var difVenteSwitch = (this.gameConsoles[2].sales2018) - this.gameConsoles[2].sales2017;
-    //Test de des variables
+    //Test des variables
     console.log(difVentePlay)
     console.log(difVenteXbox)
     console.log(difVenteSwitch)
